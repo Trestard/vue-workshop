@@ -9,7 +9,7 @@ export default {
   name: "App",
   data: () => {
     return {
-      message: "Hello world...",
+      message: "Hello world... This is a try.",
     };
   },
 };

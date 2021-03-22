@@ -9,7 +9,7 @@ export default {
   name: "App",
   data: () => {
     return {
-      message: "Hello Vue",
+      message: "Hello world :)",
     };
   },
 };

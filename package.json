@@ -1,0 +1,44 @@
+{
+  "name": "vue-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Vue Parcel boilerplate for who want to create simple Vue app and don't want to use Vue CLI.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development parcel src/public/index.html",
+    "format": "prettier \"src/**/*.{js,html,vue}\" --write",
+    "lint": "eslint \"src/**/**.{js,vue}\" --quiet",
+    "build": "cross-env NODE_ENV=production parcel build src/public/index.html"
+  },
+  "keywords": [
+    "vue-browser-boilerplate",
+    "parcel"
+  ],
+  "author": "redgroot",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
+    "@vue/component-compiler-utils": "^3.2.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1",
+    "sass-loader": "^11.0.1",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%"
+  ]
+}
